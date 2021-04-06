@@ -9,7 +9,7 @@ spec:
   tls: 
   - {}
   rules:
-  - host: reversewords-1.apps.dev.thebrewery.app
+  - host: reversewords.apps.dev.thebrewery.app
     http:
       paths:
       - backend:

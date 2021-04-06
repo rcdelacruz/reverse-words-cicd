@@ -6,7 +6,8 @@ metadata:
     kubernetes.io/ingress.class: nginx
     argocd.argoproj.io/compare-options: IgnoreExtraneous
 spec:
-  tls: {}
+  tls: 
+  - {}
   rules:
   - host: reversewords.apps.dev.thebrewery.app
     http:

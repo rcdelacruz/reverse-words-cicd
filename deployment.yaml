@@ -12,5 +12,5 @@ spec:
         - name: RELEASE
           value: Stage Release
         - $patch: replace
-        image: quay.io/rdelacruz_stratpoint/tekton-reversewords
+        image: quay.io/rdelacruz_stratpoint/tekton-reversewords:70740fa
         name: reverse-words
